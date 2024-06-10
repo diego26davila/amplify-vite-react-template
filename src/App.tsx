@@ -1,6 +1,6 @@
-import { useEffect, useState, Component } from "react";
-import type { Schema } from "../amplify/data/resource";
-import { generateClient } from "aws-amplify/data";
+//import { useEffect, useState, Component } from "react";
+//import type { Schema } from "../amplify/data/resource";
+//import { generateClient } from "aws-amplify/data";
 
 //import QrReader from 'react-qr-scanner'
 
