@@ -16,7 +16,17 @@ function Test() {
   function handleScan(data: any) {
 
     if (data != null) {
+
       setResult(data.text)
+
+      const url = `https://pucp.kissflow.com/integration/2/AcUgoqK4pdde/webhook/dmIrPurVm53SELIHRrjbBzfyJqUBBHbz6TPxd-usw-3RxLl-fJdVNSy45kKB8hlH3vkbJ5H6l1pwiRBPMrzq9A?key=${data.text}`
+
+      fetch(url).then(
+        (data) => {
+          console.log(data)
+        }
+      )
+
     }
 
   }
@@ -36,7 +46,7 @@ function Test() {
       style={previewStyle}
       onError={handleError}
       onScan={handleScan}
-      facingMode="rear"
+      facingMode="front"
     />
   <p>{result}</p>
   </div>
