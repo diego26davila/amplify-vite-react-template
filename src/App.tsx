@@ -2,7 +2,7 @@ import { useState } from "react";
 //import type { Schema } from "../amplify/data/resource";
 //import { generateClient } from "aws-amplify/data";
 
-import QrReader from '@/react-qr-scanner';
+import QrReader from 'react-qr-scanner';
 
 //const client = generateClient<Schema>();
 
