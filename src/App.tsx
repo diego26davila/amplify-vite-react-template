@@ -11,7 +11,7 @@ function Test() {
 
   const [result, setResult] = useState('')
 
-  function handleScan(data) {
+  function handleScan(data: any) {
 
     if (data != null) {
       setResult(data.text)
@@ -19,7 +19,7 @@ function Test() {
 
   }
 
-  function handleError(err) {
+  function handleError(err: any) {
     console.log(err)
   }
 
