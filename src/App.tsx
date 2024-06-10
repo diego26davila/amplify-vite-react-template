@@ -36,6 +36,7 @@ function Test() {
       style={previewStyle}
       onError={handleError}
       onScan={handleScan}
+      facingMode="rear"
     />
   <p>{result}</p>
   </div>
