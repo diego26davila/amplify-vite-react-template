@@ -84,13 +84,10 @@ function App() {
       {({signOut}) => (
 
         <main>
-          <h1>My todos</h1>
-
+          <h1>Registro de Asistencias</h1>
           <div>
-            🥳 App successfully hosted. Try creating a new todo.
-            <br />
             <a href="https://docs.amplify.aws/react/start/quickstart/#make-frontend-updates">
-              Review next step of this tutorial.
+              Sistema de Bibliotecas PUCP
             </a>
             <Test/>
           </div>
