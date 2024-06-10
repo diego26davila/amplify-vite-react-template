@@ -2,11 +2,11 @@
 //import type { Schema } from "../amplify/data/resource";
 //import { generateClient } from "aws-amplify/data";
 
-//import QrReader from 'react-qr-scanner'
+import QrReader from 'react-qr-scanner'
 
 //const client = generateClient<Schema>();
 
-/*
+
 function Test() {
 
   const [result, setResult] = useState('')
@@ -38,7 +38,7 @@ function Test() {
   <p>{result}</p>
   </div>
 }
-*/
+
 
 function App() {
 
@@ -74,6 +74,7 @@ function App() {
         <a href="https://docs.amplify.aws/react/start/quickstart/#make-frontend-updates">
           Review next step of this tutorial.
         </a>
+        <Test/>
       </div>
     </main>
   );
