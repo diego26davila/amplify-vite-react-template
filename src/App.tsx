@@ -70,7 +70,7 @@ function App() {
 
     <Authenticator>
 
-      {({signOut, user}) => (
+      {({signOut}) => (
 
         <main>
           <h1>My todos</h1>
